@@ -3,10 +3,10 @@ package pc;
 public class Monitor {
     private String model;
     private String manufacturer;
-    private String size;
-    private String resolution;
+    private int size;
+    private Resolution resolution;
 
-    public Monitor(String model, String manufacturer, String size, String resolution) {
+    public Monitor(String model, String manufacturer, int size, Resolution resolution) {
         this.model = model;
         this.manufacturer = manufacturer;
         this.size = size;
@@ -21,11 +21,11 @@ public class Monitor {
         return manufacturer;
     }
 
-    public String getSize() {
+    public int getSize() {
         return size;
     }
 
-    public String getResolution() {
+    public Resolution getResolution() {
         return resolution;
     }
 

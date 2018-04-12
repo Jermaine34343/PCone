@@ -5,9 +5,9 @@ public class ComputerCase {
     private String model;
     private String manufacturer;
     private String powerSupply;
-    private String dimensions;
+    private Dimensions dimensions;
 
-    public ComputerCase(String model, String manufacturer, String powerSupply, String dimensions) {
+    public ComputerCase(String model, String manufacturer, String powerSupply, Dimensions dimensions) {
         this.model = model;
         this.manufacturer = manufacturer;
         this.powerSupply = powerSupply;
@@ -26,13 +26,13 @@ public class ComputerCase {
         return powerSupply;
     }
 
-    public String getDimensions() {
+    public Dimensions getDimensions() {
         return dimensions;
     }
 
 
-    public void pressPowerButton(String onButton){
-        System.out.println("Power button pressed" + onButton);
+    public void pressPowerButton(String turn_on){
+        System.out.println("Power button pressed");
     }
 
 

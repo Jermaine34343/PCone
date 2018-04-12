@@ -5,7 +5,7 @@ public class Dimensions {
     private double height;
     private double depth;
 
-    public Dimensions(double width, double height, double depth, Resolution resolution) {
+    public Dimensions(double width, double height) {
         this.width = width;
         this.height = height;
         this.depth = depth;

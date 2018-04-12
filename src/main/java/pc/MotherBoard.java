@@ -3,11 +3,11 @@ package pc;
 public class MotherBoard {
     private String model;
     private String Manufacture;
-    private String ramSlots;
-    private String cardSlots;
+    private int ramSlots;
+    private int cardSlots;
     private String bios;
 
-    public MotherBoard(String model, String manufacture, String ramSlots, String cardSlots, String bios) {
+    public MotherBoard(String model, String manufacture, int ramSlots, int cardSlots, String bios) {
         this.model = model;
         this.Manufacture = manufacture;
         this.ramSlots = ramSlots;
@@ -23,11 +23,11 @@ public class MotherBoard {
         return Manufacture;
     }
 
-    public String getRamSlots() {
+    public int getRamSlots() {
         return ramSlots;
     }
 
-    public String getCardSlots() {
+    public int getCardSlots() {
         return cardSlots;
     }
 
@@ -47,7 +47,7 @@ public class MotherBoard {
     }
 
     public void loadProgram(String programName){
-        System.out.println("Microsoft is now running" + programName);
+        System.out.println("Microsoft is now running");
     }
 
 

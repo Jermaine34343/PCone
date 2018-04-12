@@ -6,7 +6,7 @@ public class Pc {
     private Monitor monitor;
     private ComputerCase computerCase;
 
-    public Pc(MotherBoard motherBoard, Monitor monitor, ComputerCase computerCase) {
+    public Pc(MotherBoard motherBoard, Monitor monitor, ComputerCase dell) {
         this.motherBoard = motherBoard;
         this.monitor = monitor;
         this.computerCase = computerCase;
@@ -42,4 +42,5 @@ public class Pc {
                 ", ComputerCase='" + computerCase + '\'' +
                 '}';
     }
+
 }
